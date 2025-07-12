@@ -1,10 +1,10 @@
 
-import Hero from "@/component/Hero/MainHero";
+import Hero from "@/components/Hero/MainHero";
 
 export default function Home() {
   return (
     <div className="w-full h-full">
-      <Hero />
+    <Hero />
     </div>
   );
 }

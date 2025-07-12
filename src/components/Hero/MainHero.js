@@ -1,6 +1,7 @@
 'use client';
 
 import useSmallScreen from '../Function/useSmallScreen.js';
+
 import Hero from './Hero.js';
 // Make sure this import exists
 

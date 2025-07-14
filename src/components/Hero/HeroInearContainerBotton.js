@@ -12,7 +12,7 @@ export default function HeroInearContainerBottom(){
                 <div className="m-[1vh] flex ">
                     <img 
                     src="/images/Akairis/Headphone.svg"
-                    className="bg-white w-[15vh] h-[15vh] rounded-[2vh] object-cover"
+                    className="bg-white w-[15vh] transition-transform hover:scale-105 duration-400 h-[15vh] rounded-[2vh] object-cover"
                     />
                     <div className="flex flex-col text-[2.3vh] justify-center m-[2vh]">
                         <span>Personal elements can take many</span>
@@ -24,7 +24,7 @@ export default function HeroInearContainerBottom(){
                 <div className="m-[1vh] flex ">
                     <img 
                     src="/images/Akairis/PC.svg"
-                    className="bg-white w-[15vh] h-[15vh] rounded-[2vh] object-cover"
+                    className="bg-white w-[15vh] h-[15vh] rounded-[2vh] object-cover transition-transform hover:scale-105 duration-400"
                     />
                     <div className="flex flex-col text-[2.3vh] justify-center m-[2vh]">
                         <span>Personal elements can take many</span>

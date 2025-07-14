@@ -9,7 +9,7 @@ export default function MainNavbar() {
   const isSmallScreen = useSmallScreen();
 
   return (
-    <div className="w-full ">
+    <div className="">
       {isSmallScreen ? <Hero /> : <Hero />}
     </div>
   );

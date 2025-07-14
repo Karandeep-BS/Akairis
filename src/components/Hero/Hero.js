@@ -2,7 +2,8 @@ import Navbar from "./Navbar"
 import HeroInearContainer from "./HeroInearContainer"
 export default  function Hero(){
     return (
-        <div className="hero w-full h-[130vh]  flex flex-col absolute">
+        <div className="w-full h-full ">
+            <div className="hero w-full h-[130vh]  flex flex-col relative">
              <img
                 src="/images/Akairis/Hero Sections.svg"
                 alt="Hero Section"
@@ -14,9 +15,7 @@ export default  function Hero(){
                 <div className="flex justify-center w-full h-full items-center relative ">
                 <HeroInearContainer />
             </div>
-            
-            
-            
+        </div>
         </div>
     )
 }

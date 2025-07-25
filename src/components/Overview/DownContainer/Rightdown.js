@@ -26,7 +26,7 @@ export default function RightDownContainer() {
           </div>
           <div className="w-full h-full ml-[2vh] flex flex-col justify-center text-[3vh]">
             <span>12 Revolutionary Strategies</span>
-            <span>Child's Developing</span>
+            <span>{"Child's Developing"}</span>
           </div>
         </div>
       </ScrollFade>

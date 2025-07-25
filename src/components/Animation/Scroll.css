@@ -1,0 +1,11 @@
+.fade-start {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.animate-fade-in {
+  opacity: 1;
+  transform: translateY(0);
+  transition-property: all;
+  transition-timing-function: ease-out;
+}

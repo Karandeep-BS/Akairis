@@ -1,0 +1,41 @@
+@media (max-aspect-ratio: 3/3) {
+    .HeroText1 {
+        font-size: 3.49vh;
+        position: absolute;
+        width: 100%;
+        top: -20vh;
+    }
+    .HeroText2{
+        font-size: 3.49vh;
+        position: absolute;
+        width: 100%;
+        top: -10vh;
+    }
+    .HeroTopWords{
+        font-size: 1vh;
+        /* position: absolute; */
+        width: 100%;
+        top: 5vh;
+    }
+    .hero-inear-container-right{
+        width: 0vh;
+        height: 0vh;
+    }
+    .HeroTopRIght{
+        display: none !important;
+    }
+    .hero-inear-container{
+        display: flex;
+        justify-content: center;
+    }
+    .hero-inear-container-left{
+        justify-content: center;
+    }
+    .hero-inear-container-bottom{
+        display: none !important;
+    }
+    .hero{
+        height: 100vh;
+        /* background-color: aquamarine; */
+    }
+}

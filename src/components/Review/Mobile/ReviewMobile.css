@@ -1,0 +1,80 @@
+@media (max-aspect-ratio: 3/3) {
+    .R-UP{
+        /* background-color: aqua; */
+        /* height: 50vh; */
+        display: flex;
+        flex-direction: column;
+    }
+    .R-text1{
+        font-size: 3vh;
+        justify-content: center;
+        align-items: start;
+        /* background-color: brown; */
+        margin-left: 1vh;
+    }
+    .R-text2{
+        font-size: 2vh;
+        justify-content: center;
+        align-items: start;
+        /* background-color: beige; */
+        margin-left: 1vh;
+        /* height: 30vh; */
+    }
+    .TTC{
+        /* display: none; */
+        height: 50vh;
+     } 
+    .ReviewTextContainer{
+        /* background-color: red; */
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 100%;
+        height: 30vh;
+    }
+    .TextMain{
+        /* background-color: blue; */
+        justify-content: center;
+        align-items: start;
+        width: 43vh;
+        height: 30vh;
+        margin: 0vh;
+    }
+    .SVG_QU{
+        height: 8vh;
+        width: 8vh;
+    }
+    .R-DO{
+        /* background-color: rgb(199, 180, 9); */
+        height: 22vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .R-B-T{
+        /* background-color: blue; */
+        font-size: 2vh;
+        width: 30vh;
+        height: 8vh;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .WithUS{
+        /* background-color: red; */
+        height: 15vh;
+    }
+    .WithUSCode{
+        /* background-color: pink; */
+        height: 20vh;
+        width: 98%;
+        gap: 0vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ReviewMainContainer{
+        height: 105vh;
+    }
+}

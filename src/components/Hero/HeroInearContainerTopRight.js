@@ -1,7 +1,9 @@
+import "../Hero/Mobile/Mobile.css"
+
 export default function HeroInearContainerTopRight() {
   return (
     <div className="hero-inear-container-right relative w-[20%] flex flex-col justify-end items-end h-[50vh] bg-amber-800-100">
-      <div className="w-[10vh] h-[17vh] flex flex-col items-center justify-between">
+      <div className=" HeroTopRIght w-[10vh] h-[17vh] flex flex-col items-center justify-between">
         {/* Facebook Icon */}
         <div className="group hover:bg-white transition-colors duration-500 border-white border-solid border-[0.2vh] h-[5vh] w-[5vh] rounded-full flex justify-center items-center">
           <svg

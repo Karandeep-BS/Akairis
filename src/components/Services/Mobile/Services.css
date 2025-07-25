@@ -1,0 +1,42 @@
+@media (max-aspect-ratio: 3/3) {
+    .ServicesText{
+        margin: 0;
+        width: auto;
+        
+        font-size: 4vh;
+        display: flex;
+        margin-left: 4vh;
+        justify-content: center;
+        /* align-items: center; */
+    }
+    .ServicesdownText{
+        font-size: 2vh;
+        width: 40vh;
+        margin-left: 4vh;
+    }
+    .Services{
+        margin: 0;
+        width: auto;
+        height: 14vh;
+    }
+    .Servicesdown{
+        margin: 0;
+        width: auto;
+        height: 14vh;
+        /* display: flex;
+        flex-direction: row; */
+    }
+    .buttonContainer{
+        height: 10vh;
+        width: 10vh;
+        font-size: 0vh;
+        margin: 0vh;
+    }
+    .button{
+        height: 10vh;
+        width: 10vh;
+        /* display: ; */
+        margin: 0vh;
+        font-size: 1vh;
+    }
+}

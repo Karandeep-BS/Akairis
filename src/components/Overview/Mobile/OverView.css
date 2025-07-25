@@ -1,0 +1,67 @@
+@media (max-aspect-ratio: 3/3) {
+    .OverViewUp{
+        /* background-color: aqua; */
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+    }
+    .OverViewT1{
+        font-size: 3vh;
+        
+        /* background-color: rgb(129, 129, 185); */
+        width: 40vh;
+        /* justify-content: center;
+        align-items: center; */
+        height: 20vh;
+        margin: 0vh;
+        justify-content: start;
+        margin: 0vh;
+        align-items: start;
+    }
+    .OverViewT2{
+        font-size: 2vh;
+        /* background-color: rgb(85, 85, 216); */
+        width: 45vh;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        height: auto;
+    }
+    .OverviewWords{
+        font-size: 1.5vh;
+    }
+    .OverViewDown{
+        /* background-color: rgb(85, 85, 216); */
+        display:  none;
+        /* width: 0vh;
+        height: 0vh; */
+    }
+    .OverView{
+        height: auto;
+    }
+    .OverViewButton{
+        width: 100%;
+        justify-content: center;
+        /* background-color: aqua; */
+        margin: 0vh;
+        align-items: center;
+        display: flex;
+    }
+    .OverViewWords{
+        margin: 0vh;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        /* background-color: brown; */
+        height: auto;
+        /* margin-left: w; */
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        width: 40vh;
+    }
+    .THEtexts{
+        margin: 0vh;
+    }
+}

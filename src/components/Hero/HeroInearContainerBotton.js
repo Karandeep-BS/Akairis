@@ -1,10 +1,10 @@
 // import HeroInearContainerBottomLeft from "./HeroInearContainerBottomLeft"
 // import HeroInearContainerBottomRight from "./HeroInearContainerBottomRight"
-
+import "../Hero/Mobile/Mobile.css"
 
 export default function HeroInearContainerBottom(){
     return(
-        <div className="hero-inear-container items-center relative w-full flex h-[30vh] ">
+        <div className="hero-inear-container-bottom items-center relative w-full flex h-[30vh] ">
             
             {/* <HeroInearContainerBottomLeft />
             <HeroInearContainerBottomRight /> */}

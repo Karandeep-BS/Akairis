@@ -1,5 +1,5 @@
 "use client";
-
+import "../../Hero/Mobile/Mobile.css"
 export default function AnimatedTextBlock() {
   const lines = [
     "we empower business with secure, scalable, and",
@@ -10,7 +10,7 @@ export default function AnimatedTextBlock() {
   return (
     <div className="flex flex-col font-medium ">
       {lines.map((line, lineIndex) => (
-        <span key={lineIndex} className="text-[2vh] ">
+        <span key={lineIndex} className="HeroTopWords text-[2vh] ">
           {line.split(" ").map((word, wordIndex) => (
             <span
               key={wordIndex}

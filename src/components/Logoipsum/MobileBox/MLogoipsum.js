@@ -8,6 +8,7 @@
 // import Box5 from "./Box5"
 export default function MLogoipsum(){
     return(
+        // -----------------------------------------
         <div className="logoipsum logoipsum-marquee h-[30vh]   mb-[2vh] w-[240vh] relative justify-between items-center  flex overflow-hidden ">
             <div className=" flex justify-center items-center h-[20vh] w-[30vh]">
                 <img

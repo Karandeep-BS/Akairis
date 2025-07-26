@@ -54,7 +54,7 @@ export default function MLogoipsum() {
               </div>
               <div className="flex justify-center  mr-[6vh] items-center h-[20vh] w-[30vh]">
                 <img
-                  src="/images/Akairis/Vector-Last.svg"
+                  src="/images/Akairis/Vector-last.svg"
                   alt="Akairis Vector"
                   className="Boximg w-[30vh] h-[10vh]"
                 />

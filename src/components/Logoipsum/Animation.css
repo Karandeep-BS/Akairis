@@ -10,16 +10,13 @@
     background-color: red;
     overflow: hidden;
     width: auto;
-    /* margin-left: 20vh; */
-    
-  /* }
+  }
 
   .Boximg {
-    background-color: rgb(78, 47, 47);
+    background-color: red;
     height: 10vh;
-    
   }
-}  */
+} */
 @keyframes marqueeScroll {
   0% {
     transform: translateX(0%);
@@ -29,12 +26,12 @@
   }
 }
 
-.logoipsum-container {
+.D-logoipsum-container {
   overflow: hidden;
 }
 
-.logoipsum-marquee {
-  animation: marqueeScroll 20s linear infinite;
+.D-logoipsum-marquee {
+  animation: marqueeScroll 10s linear infinite;
 }
 
 .Boximg {
